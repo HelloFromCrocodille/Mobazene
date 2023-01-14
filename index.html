@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Kelvin</title>
+</head>
+<body class="dark-mode" id="body">
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <a class="navbar-brand" href="#" id="hyperlink">Kelvin</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#about" id="hyperlink">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#project" id="hyperlink">Project</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a href="https://github.com/Blcklist-Intl" class="nav-link active" id="hyperlink"><i class="bi bi-github"></i></a>
+        </li>
+        <li class="nav-item">
+          <a href="https://id.linkedin.com/in/kelvin-mulyawan" class="nav-link active" id="hyperlink"><i class="bi bi-linkedin"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" onclick="Changer();" id="hyperlink"><i id="logo" class="bi bi-brightness-low"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <!-- Main Content -->
+  <section class="main">
+    <div class="container">
+      <div class="text" style="padding-top: 70px;">
+        <h2>Kelvin Mulyawan</h2>
+        <p class="lead">Machine Learning Engineer</p>
+      </div>
+      <div class="d-flex" style="padding-top: 30px;">
+        <div class="logoContainer">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" title="Python" alt="Python" width="20px" height="20px">
+        </div> &nbsp;&nbsp;
+        <div class="logoContainer">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" title="MySQL" alt="MySQL" width="20px" height="20px">
+        </div> &nbsp;&nbsp;
+        <div class="logoContainer">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" title="Tensorflow" alt="Tensorflow" width="20px" height="20px">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Main -->
+
+  <!-- About -->
+  <section class="about" id="about" style="padding-top:30px">
+    <div class="container">
+      <h2>About Me</h2>
+      <p class="lead">
+        Fresh Graduate and Bangkit 2022 Machine Learning Path Graduate, that have a project-based experience on Machine Learning Field.<br>
+        Focusing on Machine Learning Engineer with various tech stack like Python, MySQL, Tensorflow and others.
+      </p>
+    </div>
+  </section>
+  <!-- End of About -->
+  
+  <!-- Project -->
+  <section class="project" id="project" style="padding-top:30px">
+    <div class="container">
+      <h2>Project</h2>
+      <div class="row pt-3">
+        <div class="col">
+          <div class="card text-white text-center bg-dark mb-3" style="max-width: 18rem; max-height: 18rem;">
+            <div class="card-header">Rock Paper Scissors</div>
+            <div class="card-body">
+              <a href="https://github.com/Blcklist-Intl/Jajanken"><i class="bi bi-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col">
+          <div class="card text-white text-center bg-dark mb-3" style="max-width: 18rem; max-height: 18rem;">
+            <div class="card-header">Project 2</div>
+            <div class="card-body">
+              <a href="#"><i class="bi bi-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-white text-center bg-dark mb-3" style="max-width: 18rem; max-height: 18rem;">
+            <div class="card-header">Project 3</div>
+            <div class="card-body">
+              <a href="#"><i class="bi bi-github"></i></a>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </section>
+  <!-- End of Project -->
+   <section>
+    <footer class="bg-dark text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <section class="mb-4">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">Google Cloud Qwiklabs</a>
+              </li>
+              <!-- <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">Link 3</a>
+              </li> -->
+            </ul>
+        </section>
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3">
+        © 2023 Copyright :
+        <a class="text-white" href="https://github.com/Blcklist-Intl" style="text-decoration: none;">Kelvin Mulyawan</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </section>
+  <script src="assets/changer.js"></script>
+</body>
+</html>

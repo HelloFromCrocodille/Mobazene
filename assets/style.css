@@ -1,0 +1,36 @@
+/* General */
+.logoContainer{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 100px;
+}
+
+.logoContainer img{
+    width: 28px;
+    object-fit: contain;
+}
+
+.card-body a{
+    color: white;
+}
+
+/* Dark Mode */
+.dark-mode{
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode #hyperlink{
+    color: white;
+}
+
+/* White Mode */
+.white-mode{
+    background-color: white;
+    color: black;
+}
+
+.white-mode #hyperlink{
+    color: black;
+}
